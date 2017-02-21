@@ -1,0 +1,121 @@
+$date
+	Tue Jan 24 19:38:16 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var wire 1 ! mem_memctrl_write_ready $end
+$var wire 32 " mem_memctrl_read_data [31:0] $end
+$var reg 1 # clk $end
+$var reg 32 $ memctrl_mem_write_data [31:0] $end
+$var reg 1 % memctrl_mem_write_start $end
+$var reg 1 & reset $end
+$var reg 32 ' uart_mem_addr [31:0] $end
+$var reg 1 ( uart_mem_read $end
+$var reg 3 ) word_number1 [2:0] $end
+$scope module mem $end
+$var wire 1 # clk $end
+$var wire 32 * memctrl_mem_write_data [31:0] $end
+$var wire 1 % memctrl_mem_write_start $end
+$var wire 1 & reset $end
+$var wire 32 + uart_mem_addr [31:0] $end
+$var wire 1 ( uart_mem_read $end
+$var wire 3 , word_number1 [2:0] $end
+$var reg 1 - a1 $end
+$var reg 32 . addr [31:0] $end
+$var reg 32 / mem_memctrl_read_data [31:0] $end
+$var reg 1 ! mem_memctrl_write_ready $end
+$var reg 1 0 resetn $end
+$var reg 2 1 state [1:0] $end
+$var reg 3 2 word_count [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 2
+b0 1
+00
+bx /
+bx .
+0-
+b100 ,
+b100 +
+bx *
+b100 )
+1(
+b100 '
+0&
+x%
+bx $
+0#
+bx "
+x!
+$end
+#2000
+1&
+#52000
+1-
+1#
+#102000
+0#
+#152000
+10
+1#
+#202000
+0#
+#252000
+b10 1
+1!
+b0 2
+b100 .
+1#
+#302000
+0#
+#352000
+b1 2
+b1000 .
+1#
+#402000
+0#
+#452000
+b10 2
+b1100 .
+1#
+#502000
+0#
+#552000
+b11 2
+b10000 .
+1#
+#602000
+0#
+#652000
+b100 2
+b10100 .
+1#
+#702000
+0#
+#752000
+b0 1
+1#
+#802000
+0#
+#852000
+b10 1
+1!
+b0 2
+b100 .
+1#
+#902000
+0#
+#952000
+b1 2
+b1000 .
+1#
+#1002000
+0#
